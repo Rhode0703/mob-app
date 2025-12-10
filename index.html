@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Reference</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎟️ Ticket Reservation</h1>
+
+    <p><strong>Name:</strong> <span id="nameDisplay"></span></p>
+    <p><strong>Address:</strong> <span id="addressDisplay"></span></p>
+    <p><strong>Gmail:</strong> <span id="gmailDisplay"></span></p>
+    <p><strong>Seat Type:</strong> <span id="seatDisplay"></span></p>
+    <p><strong>Payment Platform:</strong> <span id="platformDisplay"></span></p>
+
+    <form id="referenceForm">
+      <label for="reference">Payment Reference</label>
+      <input type="text" id="reference" required>
+
+      <button type="submit">Submit Reservation</button>
+      <button type="button" id="backBtn" class="cancel">Go Back</button>
+    </form>
+  </div>
+
+  <script src="reference.js"></script>
+</body>
+
+</html>
